@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=lf
+# Chinese character encoding from original HTML files
+*.html text working-tree-encoding=big5hkscs eol=lf
